@@ -1,0 +1,157 @@
+body,html{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+.hero{
+    
+    background: rgb(3, 3, 3);
+    height:794px;
+    font-family: Inter;
+  
+    
+}
+
+
+.hero .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.hero .header .header-img{
+    padding-left: 80px;
+    padding-top: 15px;
+}
+
+.hero .header .header-list{
+    display: flex;
+    color:#FFFFFF;
+    font-weight: 500;
+    padding-left: 0px;
+    padding-top: 15px;
+    cursor: pointer;
+   
+}
+
+.hero .header .header-list .list-item{
+   padding:0 20px;
+   list-style: none;
+}
+
+.hero .header .header-list .list-item-home{
+    padding: 0 20px;
+    list-style: none;
+    color: black;
+    background: white;
+    font-weight: 600;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.hero .header .buttons{
+    padding-right:90px;
+    color:#FFFFFF;
+  
+
+}
+
+.hero .header .buttons .button-log{
+    padding: 0 20px;
+    color:#FFFFFF;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;     
+
+}
+
+.hero .header .buttons .button-in{
+    padding: 0 20px;
+    width: 115px;
+    height: 42px;
+    background-color:#4AE290;
+    cursor:pointer;
+    border: none;
+}
+
+
+
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+
+    
+}
+
+.main-section .main-section-content{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    
+    padding-bottom: 90px;
+   
+}
+
+.main-section .main-section-content h1, .main-section .main-section-content h1 .strong {
+    margin:0;
+    font-size: 60px;
+    font-weight: 800;
+    
+    
+    
+   
+}
+
+
+
+.main-section .main-section-content h3{
+    font-size: 24px;
+    padding-right: 50px;    
+
+    
+}
+
+.main-section .main-section-content h1 .strong {
+    color: #4AE290;
+}
+
+.main-section .main-section-content .hero-button{
+    padding-right: 270px;
+}
+
+
+.main-section .main-section-content .hero-button .main-section-button {
+    height: 46px;
+    width:159px;
+    font-weight: 700;
+    cursor: pointer;
+    filter: brightness(0.8);
+    background-color: #FFFFFF;
+   
+
+}
+
+.main-section .main-section-content .hero-button .main-section-button:hover{
+    background-color: #4AE290;
+}
+
+
+.main-section .hero-img img{ 
+    width: 581px;
+    height: 790px;
+   
+    margin:0;
+    
+}
