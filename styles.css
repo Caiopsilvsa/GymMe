@@ -24,11 +24,18 @@ body,html{
     
 }
 
-.hero .header .header-img{
+.hero .header .header-title{
     width: 85px;
     height: 23px;
     padding-left: 80px;
-    padding-top: 15px;
+    padding-bottom: 50px;
+   
+}
+
+.hero .header .header-title h1{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 30px;
 }
 
 .hero .header .header-list{
